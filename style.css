@@ -39,9 +39,9 @@ body{
     font-style: normal;
 
 }
-.margin{
-    margin-left: 6%;
-    margin-right: 6%;
+.mar gin{
+    /* margin-left: 6%;
+    margin-right: 6%; */
 }
 html{
     box-sizing: border-box;
@@ -70,7 +70,7 @@ a{
 }
 
 .nav-brand{
-    /* margin-left: 4%; */
+    margin-left: 1%;
     position: relative;
     top: 20%;
     transform: translateY(-20%);
@@ -184,10 +184,12 @@ a{
     top: 13%;
 }
 .login-pos{
-    right: 6%;
+    right: 1%;
     top: 13%;
 }
-
+.red-bg > a{
+    /* color: white !important; */
+}
 
 .active > a{
     color: black !important;
@@ -241,9 +243,10 @@ a{
 
 /* section  */
 .sec{
-    /* height: 100vh; */
-    display: flex;
-    margin:0 3%;
+        /* height: 100vh; */
+        display: flex;
+        margin: 0 auto;
+        width: 85%;
 }
 .home-img > img{
     /* background-color: aqua; */
@@ -264,7 +267,7 @@ a{
     white-space: nowrap;
 }
 .home-main-section > h6{
-    max-width: 400px;
+    max-width: 85%;
     font-size: 23px;
     line-height: 50px;
     letter-spacing: 0.04em;
@@ -573,16 +576,21 @@ a{
     /* line-height: 40px; */
     text-decoration: none;
     /* margin-top: 20px; */
-    position: relative;
+    /* position: relative; */
     margin-left: 10%;
     text-align: left;
     justify-content: flex-end;
     align-items: flex-end;
-    top: 2%;
+    /* position: absolute; */
+    bottom: 5%;
 }
 .read-more > a{
+    z-index: 9999;
     color: #4089ED !important;
 }
+.read-more > a :hover{
+    color: red !important;
+  }
 
 
 
@@ -754,7 +762,7 @@ a{
 }
 .dream-btn{
     height: 50;
-    width: 50px;
+    min-width: 50px;
     margin: 0 2px;
     border-radius: 4px;
     background-color: rgb(251, 251, 251);

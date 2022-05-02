@@ -749,6 +749,8 @@ ol {
     /* min-width: 25px; */
     /* height: 48px; */
     /* line-height: 48px; */
+    width: fit-content !important;
+    background: green !important;
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -4430,7 +4432,7 @@ color: #888; margin-bottom:10px;}
 
 .text-center-mob a {color: #d11b3f !important;}
 .text-center-mob a:hover{color: #13287e !important;}
-.section-light-blue{padding:35px 0 25px 0; margin-bottom:20px; background-color:#132b3f; display:inline-block; color:#ffffff;}
+.section-light-blue{padding:35px 0 25px 0; margin-bottom:20px; background: linear-gradient(213.3deg, #033127 5.17%, #033127 14.34%, #033127 70.8%); display:inline-block; color:#ffffff;}
 .section-light-blue h6{color:#ffffff;}
 .section-light-blue p{color:#ffffff;}
 .section-light-blue ul li{color:#ffffff;}

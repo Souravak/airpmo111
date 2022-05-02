@@ -13,3 +13,19 @@ body::-webkit-scrollbar-track {
     background-color: #666666;
   }
   
+  @keyframes fadeInOutAnimation {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .fade-in-up{
+    cursor: pointer;
+    animation: fadeInOutAnimation 1s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-out;
+  }
+

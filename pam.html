@@ -36,41 +36,58 @@
 
    <!-- ##### Header Area Start ##### -->
     <!-- navigation bar  -->
-    <nav class="navbar" style="flex-wrap: nowrap; width: 100%; position: initial; ">
-        <div class="split nav-brand"> 
+    <nav class="navbar" style="flex-wrap: nowrap; width: 100%; position: initial;">
+        <div class="split nav-brand">
             <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
         </div>
-        <div class="split topnav" id="myTopnav"> 
+        <div class="split topnav" id="myTopnav">
             <div class="nav-box res-bar"><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a></div>
             <div class="nav-box"><a href="index.html">Home</a></div>
             <div class="nav-box"><a href="about-us.html">About</a></div>
-            <div class="nav-box dropdown">
-                <a class="dropbtn active" href="services.html" >Services 
+
+            <div class="nav-box hover-to-expand active"><a href="services.html">Services&nbsp;<i class="fa fa-caret-down"></i></a></div>
+            <div class="hover-to-show-content services-pos fade-in-up" style="z-index: 2;">
+                <a href="pmo.html">Project Management Office</a>
+                    <a href="pmp.html">Project Management Platform</a>
+                    <a href="pfm.html">Project Facility Maintenance</a>
+                    <a href="pam.html">Project Asset Management</a>
+            </div>
+        
+            <!-- <div class="nav-box dropdown">
+                <a class="dropbtn" href="services.html">Services
                     <i class="fa fa-caret-down"></i>
                 </a>
                 <div class="dropdown-content">
-
                     <a href="pmo.html">Project Management Office</a>
                     <a href="pmp.html">Project Management Platform</a>
                     <a href="pfm.html">Project Facility Maintenance</a>
-                    <a href="pam.html" class="active">Project Asset Management</a>
+                    <a href="pam.html">Project Asset Management</a>
                 </div>
-            </div>
+            </div> -->
             <div class="nav-box"><a href="our-team.html">Our Team</a></div>
             <div class="nav-box"><a href="index-blog.html">Blog</a></div>
 
             <div class="nav-box"><a href="careers.html">Career</a></div>
             <div class="nav-box"><a href="contact-us.html">Contact</a></div>
-            <div class="nav-box dropdown" >
-                <a href="services.html" class="dropbtn" style="color: red;">Login 
+
+            <div class="nav-box hover-to-expand red-bg"><a href="http://app.airpmo.co/" >Login&nbsp;<i class="fa fa-caret-down"></i></a></div>
+            <div class="hover-to-show-content login-pos fade-in-up" style="z-index: 2;" >
+                <a href="http://app.airpmo.co/">Sign In</a>
+                <a href="http://app.airpmo.co/sign-up">Sign Up</a>
+            </div>
+            
+
+
+            <!-- <div class="nav-box dropdown" >
+                <a href="http://app.airpmo.co/" class="dropbtn" style="color: red;">Login
                     <i class="fa fa-caret-down"></i>
                 </a>
                 <div class="dropdown-content">
                     <a href="http://app.airpmo.co/">Sign In</a>
                     <a href="http://app.airpmo.co/sign-up">Sign Up</a>
                 </div>
-            </div>
-            
+            </div> -->
+
         </div>
     </nav>
     <!-- ##### Header Area End ##### -->

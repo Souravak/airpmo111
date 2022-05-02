@@ -176,7 +176,7 @@
         margin-top: 75px !important;
     }
     .users-box-title-desc-read-more{
-        height: 35%;
+        height: 173px;
 
     }
     .subscribe-title{
@@ -217,7 +217,7 @@
         margin-top: 0px;
     }
     .users-box-title-desc-read-more{
-        height: 35%;
+        height: 173px;
 
     }
     .cloud-container{
@@ -310,6 +310,15 @@
         right: 150px;
         top: 385px;
     }
+    .red-bg{
+        background: red !important;
+        color: white !important;
+    }
+    .red-bg > a:hover{
+        color: white !important;
+    }
 }
+
+
 
 
