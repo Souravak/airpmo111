@@ -20,6 +20,9 @@
     <!-- Responsive Stylesheet -->
     <link rel="stylesheet" href="css/responsive.css">
 	
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
 	 <!-- Core Stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -32,58 +35,44 @@
   
 
    <!-- ##### Header Area Start ##### -->
-    <header class="header-area wow fadeInDown" data-wow-delay="0.2s">
-        <div class="classy-nav-container breakpoint-off">
-            <div class="container">
-                <!-- Classy Menu -->
-                <nav class="classy-navbar justify-content-between" id="dreamNav">
-
-                    <!-- Logo -->
-                    <a class="nav-brand" href="index.html"><img src="img/core-img/logo.png" alt="logo">&nbsp;</a>
-
-                    <!-- Navbar Toggler -->
-                    <div class="classy-navbar-toggler">
-                        <span class="navbarToggler"><span></span><span></span><span></span></span>
-                    </div>
-
-                    <!-- Menu -->
-                    <div class="classy-menu">
-
-                        <!-- close btn -->
-                        <div class="classycloseIcon">
-                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                        </div>
-
-                        <!-- Nav Start -->
-                        <div class="classynav">
-                            <ul id="nav">
-                                <li><a href="index.html">Home</a>
-                                </li>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="services.html">Services</a>
-									 <ul class="dropdown">
-                                        <li><a href="pmo.html">Project Management Office</a></li>
-                                        <li><a href="pmp.html">Project Management Platform</a></li>
-                                        <li><a href="pfm.html">Project Facility Maintenance</a></li>
-										<li><a href="pam.html">Project Asset Management</a></li>
-                                    </ul>
-								</li>
-                                <li><a href="our-team.html">Our Team</a></li>
-                                <li><a href="#blog">Blogs</a></li>
-								<li><a href="careers.html">Career</a></li>
-                                <li><a href="contact-us.html">Contact</a></li>
-                            </ul>
-
-                            <!-- Button -->
-                            <a href="https://airpmo.herokuapp.com/register" target="_blank" class="open-popup-link btn login-btn mr-im">Demo</a>
-                            <!--a href="#signup-popup" class="open-signup-link btn login-btn">Signup </a-->
-                        </div>
-                        <!-- Nav End -->
-                    </div>
-                </nav>
-            </div>
+    <!-- navigation bar  -->
+    <nav class="navbar" style="flex-wrap: nowrap; width: 100%; position: initial; ">
+        <div class="split nav-brand"> 
+            <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
         </div>
-    </header>
+        <div class="split topnav" id="myTopnav"> 
+            <div class="nav-box res-bar"><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a></div>
+            <div class="nav-box"><a href="index.html">Home</a></div>
+            <div class="nav-box"><a href="about-us.html">About</a></div>
+            <div class="nav-box dropdown">
+                <a class="dropbtn  active" href="services.html">Services 
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+
+                    <a href="pmo.html">Project Management Office</a>
+                    <a href="pmp.html" class="active">Project Management Platform</a>
+                    <a href="pfm.html">Project Facility Maintenance</a>
+                    <a href="pam.html">Project Asset Management</a>
+                </div>
+            </div>
+            <div class="nav-box"><a href="our-team.html">Our Team</a></div>
+            <div class="nav-box"><a href="index-blog.html">Blog</a></div>
+
+            <div class="nav-box"><a href="careers.html">Career</a></div>
+            <div class="nav-box"><a href="contact-us.html">Contact</a></div>
+            <div class="nav-box dropdown" >
+                <a href="services.html" class="dropbtn" style="color: red;">Login 
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="http://app.airpmo.co/">Sign In</a>
+                    <a href="http://app.airpmo.co/sign-up">Sign Up</a>
+                </div>
+            </div>
+            
+        </div>
+    </nav>
     <!-- ##### Header Area End ##### -->
 	
 	 <!-- Login popup form  -->
@@ -142,10 +131,10 @@
                 <div class="row h-100 align-items-center">
                     <div class="col-12">
                         <nav aria-label="breadcrumb" class="breadcumb--con text-center">
-                            <h2 class="w-text title wow fadeInUp" data-wow-delay="0.2s"><img src="img/services/pmp-heading.png" width="75" alt=""><br>Project Management Platform</h2>
+                            <h2 class="w-text title wow fadeInUp" data-wow-delay="0.2s" style="color: #000 !important;" ><img src="img/services/pmp-heading.png" width="75" alt="" style="color: #000 !important;" ><br>Project Management Platform</h2>
                             <ol class="breadcrumb justify-content-center wow fadeInUp" data-wow-delay="0.4s">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item"><a href="services.html">Our Services</a></li> <li class="breadcrumb-item active" aria-current="page">Project Management Platform</li>
+                                <li class="breadcrumb-item" style="color: #000 !important;" ><a href="index.html" style="color: #000 !important;" >Home</a></li>
+                                <li class="breadcrumb-item" style="color: #000 !important;" ><a href="services.html" style="color: #000 !important;" >Our Services</a></li> <li class="breadcrumb-item active" aria-current="page">Project Management Platform</li>
                             </ol>
                         </nav>
                     </div>
@@ -309,50 +298,30 @@ airpmo provides you with intelligent Con-Tech tailored to help you better manage
    
 
   <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area bg-img">
-
-        <div class="footer-content-area spec">
-            <div class="container">
-                <div class="row ">
-                    <div class="col-12 col-lg-12 col-md-12 text-center">
-                        <div class="footer-copywrite-info">
-                            <!-- Copywrite -->
-                            <div class="copywrite_text fadeInUp" data-wow-delay="0.2s">
-                                <div class="footer-logo">
-                                    <img src="img/core-img/logo.png" alt="logo">
-                                </div>
-                                <p>© 2020 <a href="http://airpmo.co/">AirPMO</a>. All Rights Reserved. </p>
-								  <div class="contact_info_area d-sm-flex justify-content-between info mt-s ">
-                            <div class="contact_info mt-s text-center fadeInUp" data-wow-delay="0.2s">
-                                <a href="index.html"><p>Home</p></a> |
-                                <a href="about-us.html"><p>About us</p></a> |
-                                <a href="services.html"><p>Services</p></a> | 
-								<a href="our-team.html"><p>Our Team</p></a> |
-								<a href="#Blogs"><p>Blogs</p></a> |
-								<a href="careers.html"><p>Career</p></a> |
-                                <a href="contact-us.html"><p>Contact</p></a>
-								<br><br>
-								<p>Mythri The Town, Block B, Flat #507, Shalli Garden, Yapral, Hyderabad - 500 087.</p><br>
-                                <p><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:info@airpmo.co" style="color:#132b3f;">info@airpmo.co</a></p>  <br><br> 
-                            </div>
-							
-                        </div>
-								
-                            </div>
-                            <!-- Social Icon -->
-                            <div class="footer-social-info fadeInUp" data-wow-delay="0.4s">
-                                <!--a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a-->
-                                <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <!--a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a-->
-                                <!--a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a-->
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+    <!-- footer section  -->
+    <footer class="footer-section">
+        <div class="footer-split footer-split-left">
+            <div class="footer-brand">
+                <img src="assets/images/footer-brand-logo.png" alt="">
             </div>
-                
+            <div class="footer-text">
+                Mythri The Town, Block B, Flat #507, Shalli Garden, Yapral, Hyderabad - 500 087. <br>
+                info@airpmo.co
+            </div>
+            <div class="footer-copy-right">
+                © 2020 AirPMO. All Rights Reserved.
+            </div>
+        </div>
+        <div class="footer-split footer-split-right">
+            <div class="footer-nav-section">
+                <a href="index.html">Home</a>
+                <a href="about-us.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="our-team.html">Our Team</a>
+                <a href="index-blog.html">Blog</a>
+                <a href="careers.html">Career</a>
+                <a href="contact-us.html">Contact</a>
+            </div>
         </div>
     </footer>
 	
@@ -371,6 +340,19 @@ airpmo provides you with intelligent Con-Tech tailored to help you better manage
     <script src="js/dzsparallaxer.js"></script>
     <!-- Active js -->
     <script src="js/script.js"></script>
+
+    <!-- responsive nav-bar script -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "split topnav") {
+                x.className = "split topnav-responsive";
+            }
+            else {
+                x.className = "split topnav";
+            }
+        }
+    </script>
 
 </body>
 

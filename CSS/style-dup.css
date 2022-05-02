@@ -35,12 +35,9 @@
 ====================================================================
 
 ***/
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Manrope:wght@400;700&family=Mulish:wght@700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Manrope:wght@400;700&family=Mulish:wght@700&display=swap');
-
-/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700'); */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700');
 
 
 /*** 
@@ -102,16 +99,16 @@
 
 body {
     /* font-family: 'Roboto', sans-serif; */
-    /* background: #4834d4;
+    background: #4834d4;
     background: -webkit-linear-gradient(to right, #4834d4, #341f97);
     background: -webkit-linear-gradient(left, #4834d4, #341f97);
-    background: linear-gradient(to right, #4834d4, #341f97); */
+    background: linear-gradient(to right, #4834d4, #341f97);
 	font-weight:300;
 	
 	
 }
 .darker-blue{
-    /* background: linear-gradient(180deg,#240044 0,#0f0240 25%,#400959 40%,#0f0240 65%,#0f0240); */
+    background: linear-gradient(180deg,#240044 0,#0f0240 25%,#400959 40%,#0f0240 65%,#0f0240);
 }
 h1,
 h2,
@@ -744,31 +741,27 @@ ol {
 
 
 .dream-btn {
-    /* position: relative; */
+    position: relative;
     z-index: 1;
-    /* min-width: 25px; */
-    /* height: 48px; */
-    /* line-height: 48px; */
+    min-width: 160px;
+    height: 48px;
+    line-height: 48px;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 1px;
     display: inline-block;
-    /* padding: 0 20px; */
-    height: 40px;
-    border-radius: 5px;
+    padding: 0 20px;
     text-align: center;
     text-transform: uppercase;
-    /* background-size: 200% auto; */
+    background-size: 200% auto;
     color: #fff;
-    padding: 0px;
     box-shadow: 0 3ox 20px rgba(0, 0, 0, 0.1);
-    /* border-radius: 100px; */
-	background:#070f05;
+    border-radius: 100px;
+	background:#d11b3f;
    /* background-image: -webkit-linear-gradient(left, #d11f3f 0%, #132b3f 51%, #132b3f 100%);
     background-image: linear-gradient(to right, #d11f3f 0%, #132b3f 51%, #132b3f 100%);*/
     -webkit-transition: all 500ms;
     transition: all 500ms;
-
 }
 
 .dream-btn:hover {
